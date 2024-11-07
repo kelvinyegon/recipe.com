@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF7F3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: #D75A4A;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.description {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0 20px;
+    color: #555;
+}
+
+
+h2 {
+    font-size: 18px;
+    color: #D75A4A;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #F9D8D1;
+    padding-bottom: 5px;
+}
+
+
+.preparation-time, .ingredients {
+    list-style-type: none;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.instructions {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+}
+
+
+.nutrition-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.nutrition-table th, .nutrition-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.nutrition-table th {
+    color: #D75A4A;
+}
+
+.nutrition-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
